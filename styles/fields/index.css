@@ -88,8 +88,7 @@ input{
         color: var(--semantic-error);
         margin-top: .25rem;
     }
-    /*&:not(:focus):valid+.error*/
-    &:valid + .error{
+    &:not(:focus):valid + .error{
         display: none;
     }
 }
